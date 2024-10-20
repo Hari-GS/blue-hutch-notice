@@ -1,5 +1,5 @@
 import React from 'react'
-import myPic from '../assets/Main-pic.jpg'
+import myPic from '../assets/photo_1_2024-10-20_06-38-44.jpg'
 import deepanPic from '../assets/photo_2_2024-10-19_15-44-15.jpg'
 import SameerPic from '../assets/photo_1_2024-10-19_15-44-15.jpg'
 import premPic from '../assets/photo_1_2024-10-19_17-26-24.jpg'
@@ -12,7 +12,7 @@ function AboutUs() {
             </div>
             <div className='md:flex justify-between'>
             <div className=' text-white border-milkyGreen border-2 py-7 my-10 md:w-1/6 flex flex-col rounded-3xl items-center justify-center'>
-                <img className='w-24 h-24 rounded-full object-scale-down' src={myPic}/>
+                <img className='w-24 h-24 rounded-full  object-cover' src={myPic}/>
                 <div className='px-4 text-center'>
                     <h3 className='py-3'>Hariharan G</h3>
                     <p className='py-3'>Founder/CEO  – Technical & Operations Lead</p>
