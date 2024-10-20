@@ -1,5 +1,5 @@
 import React from 'react'
-import myPic from '../assets/photo_2024-10-10_05-57-42.jpg'
+import myPic from '../assets/Main-pic.jpg'
 import deepanPic from '../assets/photo_2_2024-10-19_15-44-15.jpg'
 import SameerPic from '../assets/photo_1_2024-10-19_15-44-15.jpg'
 import premPic from '../assets/photo_1_2024-10-19_17-26-24.jpg'
