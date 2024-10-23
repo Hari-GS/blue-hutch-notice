@@ -11,7 +11,8 @@ import {
 } from "mdb-react-ui-kit";
 const Testinomial = () => {
   return (
-    <MDBContainer className="my-5">
+    <MDBContainer 
+     className="my-0">
       <MDBCarousel showControls>
         <MDBCarouselItem className="active text-center ">
           <MDBContainer
@@ -20,7 +21,7 @@ const Testinomial = () => {
           >
             <MDBRow className="d-flex justify-content-center">
               <MDBCol md="10">
-                <MDBCard>
+                <MDBCard style={{background: "linear-gradient(90deg, #0088FF 0%, #005299 100%)"}}>
                   <MDBCardBody className="m-3">
                     <MDBRow>
                       <MDBCol
@@ -37,8 +38,8 @@ const Testinomial = () => {
                       </MDBCol>
                       <MDBCol lg="8">
                         {" "}
-                        <p className="text-muted fw-light mb-4">
-                          Lorem ipsum dolor, sit amet consectetur adipisicing
+                        <p className="text-white fw-light mb-4">
+                          Lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing
                           elit. Id quam sapiente molestiae numquam quas,
                           voluptates omnis nulla ea odio quia similique corrupti
                           magnam.
@@ -46,7 +47,7 @@ const Testinomial = () => {
                         <p className="fw-bold lead mb-2">
                           <strong>Anna Smith</strong>
                         </p>
-                        <p className="fw-bold text-muted mb-0">
+                        <p className="fw-bold text-white mb-0">
                           Product manager
                         </p>
                       </MDBCol>
@@ -64,7 +65,7 @@ const Testinomial = () => {
           >
             <MDBRow className="d-flex justify-content-center">
               <MDBCol md="10">
-                <MDBCard>
+                <MDBCard style={{background: "linear-gradient(90deg, #0088FF 0%, #005299 100%)"}}>
                   <MDBCardBody className="m-3">
                     <MDBRow>
                       <MDBCol
@@ -80,11 +81,14 @@ const Testinomial = () => {
                         />
                       </MDBCol>
                       <MDBCol lg="8">
-                        <p className="text-muted fw-light mb-4">sameer</p>
+                        <p className="text-white fw-light mb-4">sameer Lorem ipsum dolor, sit amet consectetur adipisicing
+                          elit. Id quam sapiente molestiae numquam quas,
+                          voluptates omnis nulla ea odio quia similique corrupti
+                          magnam.</p>
                         <p className="fw-bold lead mb-2">
                           <strong>Anna Smith</strong>
                         </p>
-                        <p className="fw-bold text-muted mb-0">
+                        <p className="fw-bold text-white mb-0">
                           Product manager
                         </p>
                       </MDBCol>
@@ -102,7 +106,7 @@ const Testinomial = () => {
           >
             <MDBRow className="d-flex justify-content-center">
               <MDBCol md="10">
-                <MDBCard>
+                <MDBCard style={{background: "linear-gradient(90deg, #0088FF 0%, #005299 100%)"}}>
                   <MDBCardBody className="m-3">
                     <MDBRow>
                       <MDBCol
@@ -119,7 +123,7 @@ const Testinomial = () => {
                       </MDBCol>
                       <MDBCol lg="8">
                         {" "}
-                        <p className="text-muted fw-light mb-4">
+                        <p className="text-white fw-light mb-4">
                           Lorem ipsum dolor, sit amet consectetur adipisicing
                           elit. Id quam sapiente molestiae numquam quas,
                           voluptates omnis nulla ea odio quia similique corrupti
@@ -128,7 +132,7 @@ const Testinomial = () => {
                         <p className="fw-bold lead mb-2">
                           <strong>Anna Smith</strong>
                         </p>
-                        <p className="fw-bold text-muted mb-0">
+                        <p className="fw-bold text-white mb-0">
                           Product manager
                         </p>
                       </MDBCol>

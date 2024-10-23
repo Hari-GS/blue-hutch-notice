@@ -1,16 +1,29 @@
 import "./App.css";
+import Footer from "./components/Footer.jsx";
 import Navbar from "./components/Navbar";
-import Testinomial from "./components/Testinomial";
+import ScrollToTop from "./components/ScrollToTop.jsx";
+import Testimonial from "./components/Testinomial";
 import About from "./pages/About";
-import Hero from "./pages/Hero";
+import AboutUs from "./pages/AboutUs.jsx";
+import Hero from "./pages/Hero.jsx";
+import WebsitesAd from "./pages/WebsitesAd.jsx";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Import necessary Router components
 
 function App() {
   return (
-    <div className=" w-full  bg-[#1A1E3B] ">
-      <Navbar />
-      <Hero />
-      <About />
-      <Testinomial />
+    <div className="w-full bg-[#261893]">
+      <Router>
+        <Navbar />
+        <ScrollToTop/>
+        <Routes>
+          {/* Define routes for different pages */}
+          <Route path="/" element={<Hero />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/websites" element={<WebsitesAd/>} />
+        </Routes>
+        
+        <Footer />
+      </Router>
     </div>
   );
 }
