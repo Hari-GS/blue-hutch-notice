@@ -34,7 +34,6 @@ function Hero  () {
       </div>
     </div>
     <About/>
-    <Testinomial />
     </div>
   );
 };

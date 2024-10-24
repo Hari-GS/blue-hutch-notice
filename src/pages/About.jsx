@@ -45,13 +45,19 @@ const About = () => {
       </div>
 
       {/* Flex Container for Paragraph, GIF and Name */}
-      <div className="md:flex items-center pt-12 md:pt-20 md:px-24">
+      <div className="md:flex items-center pt-12 md:pt-50 md:px-24">
         {/* Left Side - Paragraph */}
         <div className="flex-1 md:pt-0 pt-5 px-4">
-          <h1 className="md:text-[30px] text-[25px] md:pb-1">About Us</h1>
-          <div className="bg-[#DBFF5E] h-1 w-[100px] mb-4"></div>
+          <h1 className="md:text-[30px] text-[25px] md:pb-0">Our Story</h1>
+          <div className="bg-[#DBFF5E] h-1 w-[100px] md:w-[130px]  mb-4"></div>
           <p className="md:w-3/4 ">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              It all started with two college friends who shared a passion for software development but knew they didn’t want to be confined to a traditional 9-to-5 job. Driven by a vision to create something impactful, we built this platform to connect those in need of quality digital solutions with reliable, affordable services.
+
+              We specialize in developing custom websites and web applications tailored to you and your business needs. Whether you're a startup or an established brand, we’re here to bring your vision to life with dedication and precision.
+
+              As we embark on this journey, our focus is on delivering reliability and building trust with our clients, prioritizing long-term relationships over short-term profits, That's why we are doing this at highly affordable price. We're excited to start small, but we have big expansion plans for the future.
+
+              Give us the opportunity to serve you, and let’s create something amazing together. Thank you for considering us.
           </p>
         </div>
 
@@ -67,6 +73,7 @@ const About = () => {
         {/* Right Side - Name */}
         <div className="flex-shrink-0 text-center md:pt-0 py-3 md:text-right md:w-2/6">
           <p className="text-[24px] text-[#DBFF5E]">Hari & Deepan<br/><h5 className="text-white">The Developer Duo You'll Ever Need</h5></p>
+          <p className="md:text-[17px] text-base">For Orders : <br/> 6369312803 - WhatsApp preferred<br/>Email : bluehutch01@gmail.com</p>
         </div>
       </div>
     </div>

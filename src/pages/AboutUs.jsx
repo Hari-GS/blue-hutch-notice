@@ -8,9 +8,9 @@ function AboutUs() {
     return (
         <div className='md:px-5 md:py-16 py-32'>
         <div>
-            <div className='md:text-[#DBFF5E] text-white text-center text-2xl md:text-4xl'>
+            <div className='md:text-[#DBFF5E] text-white text-center text-2xl md:text-3xl'>
                
-                <div className='md:text-white text-[#DBFF5E] pt-2'>We Are Under Production. Stay Tuned!</div>          
+                <div className='md:text-white text-[#DBFF5E] pt-2'>We're still under development, but fully functional with our current features.</div>          
             </div>
             <div className='text-white  md:py-10 py-7 bg-customBlue1 my-16 mx-3 md:mx-10 rounded-3xl bg-gradient-to-r from-forGradient  to-customBlue1 px-4 md:px-8'>
                 <div className='pb-5'>

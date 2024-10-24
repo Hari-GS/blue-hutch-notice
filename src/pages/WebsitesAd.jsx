@@ -28,8 +28,8 @@ function WebsitesAd() {
         
             
         </div>
-        <h3 className='md:pt-8 text-center text-[#DBFF5E]'>
-            Current Offer : 75% off for 1st Client | 50% off for 2nd & 3rd Client
+        <h3 className='md:mt-8 md:py-5 md:ml-[470px] md:w-1/3 bg-[#DBFF5E] text-center text-[#261893] rounded-xl mt-6'>
+            Current Offer : 75% off for Now
         </h3>
         </div>
     )
