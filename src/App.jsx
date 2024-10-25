@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // I
 
 function App() {
   return (
-    <div className="w-full bg-[#261893]">
+    <div className="w-full bg-[#E4E0E1]">
       <Router>
         <Navbar />
         <ScrollToTop/>

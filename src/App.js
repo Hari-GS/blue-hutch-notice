@@ -7,7 +7,7 @@ import Copyright from './components/Copyright';
 
 function App() {
   	return (
-    	<div className='bg-customBlue2'>
+    	<div className='bg-[#E4E0E1]'>
       		<Header/>
 			<Hero/>
 			<AboutUs/>

@@ -10,7 +10,7 @@ function Hero  () {
   return (
     <div className="pt-16 md:pt-8">
     <div className=" pb-60 " style={{
-        background: "linear-gradient(195deg, rgba(38,24,147,1) 37%, rgba(219,255,94,1) 100%)",
+        background: "linear-gradient(195deg, rgb(228, 224, 225) 37%, rgb(73, 54, 40) 100%)",
       }}>
       <div className="pt-[0px]">
       <div className="   flex justify-center items-center py-16 px-3">
@@ -30,7 +30,7 @@ function Hero  () {
         
       </div>
       <div className="text-center">
-        <h1 className="text-white font-bold text-xl ">வணக்கம் | Welcome !</h1>
+        <h1 className="text-[#493628] font-bold text-xl ">வணக்கம் | Welcome! We are Specialized in Developing Websites for Hotels and Restaurants</h1>
       </div>
     </div>
     <About/>
