@@ -29,7 +29,7 @@ function WebsitesAd() {
             
         </div>
         <h3 className='md:mt-8 md:py-5 md:ml-[470px] md:w-1/3 bg-[#493628] text-center text-[#E4E0E1] rounded-xl mt-6'>
-            Current Offer : 75% off for Now
+            Current Offer : 50% off for Now
         </h3>
         </div>
     )
