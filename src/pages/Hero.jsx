@@ -29,7 +29,7 @@ function Hero  () {
         </div>
         
       </div>
-      <div className="text-center">
+      <div className="text-center md:px-0 px-2">
         <h1 className="text-[#493628] font-bold text-xl ">வணக்கம் | Welcome! We are Specialized in Developing Websites for Hotels and Restaurants</h1>
       </div>
     </div>

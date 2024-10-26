@@ -40,7 +40,7 @@ Hari and Team
 
                 </div>
             </div>
-            <div className=' text-[#493628] border-[#AB886D] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
+            <div className=' text-[#493628] border-[#493628] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
                 <img className='w-24 h-24 rounded-full object-cover ' src={deepanPic}/>
                 <div className='px-4 text-center'>
                     <h3 className='py-3'> Deepan Raj K </h3>
@@ -51,7 +51,7 @@ Hari and Team
 
                 </div>
             </div>
-            <div className=' text-[#493628] border-[#AB886D] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
+            <div className=' text-[#493628] border-[#493628] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
                 <img className='w-24 h-24 rounded-full object-cover ' src={premPic}/>
                 <div className='px-4 text-center'>
                     <h3 className='py-3'> Prem M</h3>
@@ -60,7 +60,7 @@ Hari and Team
                 </div>
                
             </div>
-            <div className=' text-[#493628] border-[#AB886D] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
+            <div className=' text-[#493628] border-[#493628] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
                 <img className='w-24 h-24 rounded-full object-cover ' src={SameerPic}/>
                 <div className='px-4 text-center'>
                     <h3 className='py-3'>Sameer Ahamed A</h3>

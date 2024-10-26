@@ -23,9 +23,9 @@ const Navbar = () => {
       <div className="md:hidden z-50">
         <button
           onClick={toggleMenu}
-          className="text-[#493628] text-3xl focus:outline-none"
+          className="text-[#E4E0E1] text-3xl focus:outline-none"
         >
-          <i className={isOpen ? "fa-solid fa-times" : "fa-solid fa-bars"}></i>
+          <i className={isOpen ? "fa-solid fa-times" : "text-[#493628] fa-solid fa-bars"}></i>
         </button>
       </div>
 
