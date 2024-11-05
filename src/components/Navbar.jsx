@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";  // Import Link from react-router-dom
-import logo from "../assets/Blue hutch rebranding 2.png";
+import logo from "../assets/B (2).png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <div className="md:h-[95px] h-20 flex items-center justify-between px-3 w-full md:relative absolute z-50">
+    <div className="md:h-[95px] h-20 flex items-center justify-between px-3 w-full md:relative absolute z-50 bg-[#6EACDA]">
       {/* Left Section: Logo and Name */}
       <div className="flex items-center space-x-4 md:pl-6 md:pt-5 md:w-1/2">
         <img src={logo} alt="logo" className="w-[50px] sm:w-[60px]" />
-        <h1 className="text-[#493628] font-bold text-[22px] sm:text-[28px]">
+        <h1 className="text-[#03346E] font-bold text-[22px] sm:text-[28px]">
           Blue Hutch
         </h1>
       </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
           onClick={toggleMenu}
           className="text-[#E4E0E1] text-3xl focus:outline-none"
         >
-          <i className={isOpen ? "fa-solid fa-times" : "text-[#493628] fa-solid fa-bars"}></i>
+          <i className={isOpen ? "fa-solid fa-times" : "text-[#03346E] fa-solid fa-bars"}></i>
         </button>
       </div>
 
@@ -72,12 +72,12 @@ const Navbar = () => {
         <nav className="flex md:space-x-36">
           <Link
             to="/"
-            className="link text-[#493628] text-[18px] relative group md:text-lg"
+            className="link text-[#03346E] text-[18px] relative group md:text-lg"
           >
-            <span className="group-hover:text-[#D6C0B3]">
+            <span className="group-hover:text-white">
               Home
             </span>
-            <span className="block h-[2px] bg-[#493628] scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 w-full"></span>
+            <span className="block h-[2px] bg-[#03346E] scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 w-full"></span>
           </Link>
 
           <Link
@@ -85,13 +85,13 @@ const Navbar = () => {
             smooth={true}
             spy={true}
             offset={-200}
-            className="link cursor-pointer text-[#493628] text-[18px] relative group md:text-lg"
+            className="link cursor-pointer text-[#03346E] text-[18px] relative group md:text-lg"
             >
-            <span className="group-hover:text-[#D6C0B3]">
+            <span className="group-hover:text-white">
               Products
             </span>
-            <span className="block h-[2px] bg-[#493628] scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 w-full"></span>
-            <span className="absolute hidden group-hover:block text-sm text-[#E4E0E1] bg-[#493628] p-2 rounded-md -top-10 left-1/2 w-40 transform -translate-x-1/2 mt-20">
+            <span className="block h-[2px] bg-[#03346E] scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 w-full"></span>
+            <span className="absolute hidden group-hover:block text-sm text-[#E4E0E1] bg-[#03346E] p-2 rounded-md -top-10 left-1/2 w-40 transform -translate-x-1/2 mt-20">
               Other products will be opened soon. Scroll down to Featured
             </span>
           </Link>
@@ -100,24 +100,24 @@ const Navbar = () => {
             smooth={true}
             spy={true}
             offset={-200}
-            className="link cursor-pointer text-[#493628] text-[18px] relative group md:text-lg"
+            className="link cursor-pointer text-[#03346E] text-[18px] relative group md:text-lg"
             >
-            <span className="group-hover:text-[#D6C0B3]">
+            <span className="group-hover:text-white">
               Services
             </span>
-            <span className="block h-[2px] bg-[#493628] scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 w-full"></span>
-            <span className="absolute hidden group-hover:block text-sm text-[#E4E0E1] bg-[#493628] p-2 rounded-md -top-10 left-1/2 w-40 transform -translate-x-1/2 mt-20">
+            <span className="block h-[2px] bg-[#03346E] scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 w-full"></span>
+            <span className="absolute hidden group-hover:block text-sm text-[#E4E0E1] bg-[#03346E] p-2 rounded-md -top-10 left-1/2 w-40 transform -translate-x-1/2 mt-20">
               Other services will be opened soon. Scroll down to Featured
             </span>
           </Link>
           <Link
             to="/about"
-            className="link text-[#493628] text-[18px] relative group md:text-lg"
+            className="link text-[#03346E] text-[18px] relative group md:text-lg"
           >
-            <span className="group-hover:text-[#D6C0B3]">
+            <span className="group-hover:text-white">
               About Us
             </span>
-            <span className="block h-[2px] bg-[#493628] scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 w-full"></span>
+            <span className="block h-[2px] bg-[#03346E] scale-x-0 group-hover:scale-x-100 absolute bottom-0 left-0 w-full"></span>
           </Link>
         </nav>
       </div>

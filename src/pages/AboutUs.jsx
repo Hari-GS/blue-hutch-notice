@@ -6,13 +6,13 @@ import premPic from '../assets/prem2.png'
 
 function AboutUs() {
     return (
-        <div className='md:px-5 md:py-16 py-32'>
+        <div className='md:px-5 md:py-16 py-32 bg-[#6EACDA]'>
         <div>
-            <div className='md:text-[#AB886D] text-[#493628] text-center text-2xl md:text-3xl'>
+            <div className='md:text-[#03346E] text-[#03346E] text-center text-2xl md:text-3xl'>
                
-                <div className='md:text-[#493628] text-[#AB886D] pt-2'>We're still under development, but fully functional with our current features.</div>          
+                <div className='md:text-[#03346E] text-[#03346E] pt-2'>We're still under development, but fully functional with our current features.</div>          
             </div>
-            <div className='text-[#E4E0E1]  md:py-10 py-7 bg-customBlue1 my-16 mx-3 md:mx-10 rounded-3xl bg-gradient-to-r from-[#493628]  to-[#AB886D] px-4 md:px-8'>
+            <div className='text-[#E4E0E1]  md:py-10 py-7 my-16 mx-3 md:mx-10 rounded-3xl bg-[#03346E]  px-4 md:px-8'>
                 <div className='pb-5'>
                     IMPORTANT : We Need Web developers & Web Designers to work in your free time!
                 </div>
@@ -26,10 +26,10 @@ Hari and Team
         </div>
         <div className='md:px-20 md:pb-10 pb-10 px-4'>
             <div className="text-center" >
-                <h1 className='text-[#493628] w-36 text-3xl border-b-4 pb-1 border-[#AB886D] text-center '>Our Team</h1>            
+                <h1 className='text-[#03346E] w-36 text-3xl border-b-4 pb-1 border-[#03346E] text-center '>Our Team</h1>            
             </div>
             <div className='md:flex justify-between'>
-            <div className=' text-[#493628] border-[#493628] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
+            <div className=' text-white border-[#03346E] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center bg-[#03346E]'>
                 <img className='w-24 h-24 rounded-full  object-cover' src={myPic}/>
                 <div className='px-4 text-center'>
                     <h3 className='py-3'>Hariharan G</h3>
@@ -40,7 +40,7 @@ Hari and Team
 
                 </div>
             </div>
-            <div className=' text-[#493628] border-[#493628] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
+            <div className=' text-white border-[#03346E] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center bg-[#03346E]'>
                 <img className='w-24 h-24 rounded-full object-cover ' src={deepanPic}/>
                 <div className='px-4 text-center'>
                     <h3 className='py-3'> Deepan Raj K </h3>
@@ -51,7 +51,7 @@ Hari and Team
 
                 </div>
             </div>
-            <div className=' text-[#493628] border-[#493628] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
+            <div className=' text-white border-[#03346E] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center bg-[#03346E]'>
                 <img className='w-24 h-24 rounded-full object-cover ' src={premPic}/>
                 <div className='px-4 text-center'>
                     <h3 className='py-3'> Prem M</h3>
@@ -60,7 +60,7 @@ Hari and Team
                 </div>
                
             </div>
-            <div className=' text-[#493628] border-[#493628] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center'>
+            <div className=' text-white border-[#03346E] border-2 py-7 my-10 md:w-1/5 flex flex-col rounded-3xl items-center justify-center bg-[#03346E]'>
                 <img className='w-24 h-24 rounded-full object-cover ' src={SameerPic}/>
                 <div className='px-4 text-center'>
                     <h3 className='py-3'>Sameer Ahamed A</h3>
