@@ -30,7 +30,7 @@ function Hero  () {
         
       </div>
       <div className="text-center md:px-0 px-2">
-        <h1 className="text-[#03346E] font-bold text-xl ">வணக்கம் | Welcome! We are Specialized in Developing Websites for Hotels and Restaurants</h1>
+        <h1 className="text-[#03346E] font-bold text-xl ">வணக்கம் | Welcome! </h1>
       </div>
     </div>
     <About/>
