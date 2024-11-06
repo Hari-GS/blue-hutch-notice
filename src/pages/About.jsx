@@ -52,9 +52,9 @@ const About = () => {
         <div className="flex-1 md:pt-0 pt-5 px-4 bg-[#03346E] rounded-[20px] md:mx-0 mx-3 md:pb-0 pb-3">
           <h1 className="md:text-[30px] text-[25px] md:pb-0 text-[#F5F5F5]">Our Story</h1>
           <p className=" text-[#F5F5F5]">
-              It all started with two college friends who shared a passion for software development but knew they didn’t want to be confined to a traditional 9-to-5 job. Driven by a vision to create something impactful, we built this platform to connect those in need of quality digital solutions with reliable, affordable services.
+              It all started with a boy who has a passion for software development but knew he didn’t want to be confined to a traditional 9-to-5 job. Driven by a vision to create something impactful, I built this platform to connect those in need of quality digital solutions with reliable, affordable services.
 
-              We specialize in developing custom websites and web applications tailored to you and your business needs. Whether you're a startup or an established brand, we’re here to bring your vision to life with dedication and precision.
+              Me and My small team specialized in developing custom websites and web applications tailored to you and your business needs. Whether you're a startup or an established brand, we’re here to bring your vision to life with dedication and precision.
 
               As we embark on this journey, our focus is on delivering reliability and building trust with our clients, prioritizing long-term relationships over short-term profits, That's why we are doing this at highly affordable price. We're excited to start small, but we have big expansion plans for the future.
 
@@ -73,8 +73,8 @@ const About = () => {
 
         {/* Right Side - Name */}
         <div className="flex-shrink-0 text-center md:pt-0 py-3 md:text-right md:w-2/6">
-          <p className="text-[24px] text-[#03346E] font-bold">Hari & Deepan<br/><h5 className="text-[#03346E]">The Developer Duo You'll Ever Need</h5></p>
-          <p className="md:text-[17px] text-base">For Orders : <br/> 6369312803 - WhatsApp preferred<br/>Email : bluehutch01@gmail.com</p>
+          <p className="text-[24px] text-[#03346E] font-bold">Hari & Team<br/><h5 className="text-[#03346E]">The Developers team You'll Ever Need</h5></p>
+          <p className="md:text-[17px] text-base">For Orders : <br/>+91 6369312803 - WhatsApp preferred<br/>Email : bluehutch01@gmail.com</p>
         </div>
       </div>
     </div>

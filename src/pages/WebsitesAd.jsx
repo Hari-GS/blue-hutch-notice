@@ -8,21 +8,21 @@ function WebsitesAd() {
             
             <div className='md:w-1/2 md:mx-10 bg-[#03346E] text-white pt-10 rounded-2xl px-3'>
                 <div className="text-lg font-bold">Custom Websites / Web Applications</div>
-                <p className='pt-4'>- We build custom websites and web apps based on your unique needs. Each project is handled personally by our developer duo, Hari and Deepan. </p>
+                <p className='pt-4'>- We build custom websites and web apps based on your unique needs. Each project is handled personally by me Hari and my team. </p>
                 <p>- Whether you have specific ideas or aren't sure what you need, we can help by researching your industry and offering the best solutions. </p>
                 <p>- Right now, we're focused on building our reputation and trust rather than making big profits. That’s why we’re offering our services at much lower rates than the market price.</p>
                 <p>- This is a great chance to get an affordable website and boost your online presence, helping you attract more customers.</p>
                 <p>- Get in touch with us by phone or email to discuss your project and place your order!</p>
             </div>
             <div>
-                <div className="flex justify-center md:pt-0 pt-14 md:pr-48 ">
+                {/* <div className="flex justify-center md:pt-0 pt-14 md:pr-48 ">
                     <img 
                     src={dhGif} 
                     alt="Animated Reliability" 
                     className="h-52 mt-3 rounded-xl" 
                     />
-                </div>
-                <p className="text-[24px] text-[#03346E] mt-8 md:pr-48 text-center font-bold">Hari & Deepan<br/><h5 className="text-[#03346E]">The Developer Duo You'll Ever Need</h5><br/><p className="md:text-[17px] text-base">For Orders : <br/>+91 6369312803 - WhatsApp preferred<br/>Email : bluehutch01@gmail.com</p></p>    
+                </div> */}
+                <p className="text-[24px] text-[#03346E] mt-8 md:pr-48 text-center font-bold">Hari & Team<br/><h5 className="text-[#03346E]">The Developers Team You'll Ever Need</h5><br/><p className="md:text-[17px] text-base">For Orders : <br/>+91 6369312803 - WhatsApp preferred<br/>Email : bluehutch01@gmail.com</p></p>    
             </div>
         
             

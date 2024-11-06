@@ -7,7 +7,7 @@ import premPic from '../assets/prem2.png'
 function AboutUs() {
     return (
         <div className='md:px-5 md:py-16 py-32 bg-[#6EACDA]'>
-        <div>
+        {/* <div>
             <div className='md:text-[#03346E] text-[#03346E] text-center text-2xl md:text-3xl'>
                
                 <div className='md:text-[#03346E] text-[#03346E] pt-2'>We're still under development, but fully functional with our current features.</div>          
@@ -23,7 +23,7 @@ Regards,<br/>
 Hari and Team
                 </div>
             </div>    
-        </div>
+        </div> */}
         <div className='md:px-20 md:pb-10 pb-10 px-4'>
             <div className="text-center" >
                 <h1 className='text-[#03346E] w-36 text-3xl border-b-4 pb-1 border-[#03346E] text-center '>Our Team</h1>            
