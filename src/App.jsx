@@ -6,7 +6,7 @@ import Testimonial from "./components/Testinomial";
 import About from "./pages/About";
 import AboutUs from "./pages/AboutUs.jsx";
 import Hero from "./pages/Hero.jsx";
-// import PastWorks from "./pages/PastWorks.jsx";
+import PastWorks from "./pages/PastWorks.jsx";
 import WebsitesAd from "./pages/WebsitesAd.jsx";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  // Import necessary Router components
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/websites" element={<WebsitesAd/>} />
-          {/* <Route path="/pastworks" element={<PastWorks/>}/> */}
+          <Route path="/pastworks" element={<PastWorks/>}/>
         </Routes>
         
         <Footer />

@@ -28,14 +28,14 @@ const About = () => {
 
         
 
-        {/* Mentoring Box */}
-        <div className="h-[250px] md:w-[280px] mx-4 rounded-[20px] md:mt-0 mt-5 bg-[#03346E] flex items-center flex-col justify-center transform transition-transform duration-300 hover:-translate-y-3">
+        {/* Past Works */}
+        <Link  to="/pastworks" className="cursor-pointer h-[250px] md:w-[280px] mx-4 rounded-[20px] mt-12 bg-[#03346E] hover:bg-[#255e89] flex items-center flex-col justify-center transform transition-transform duration-300 hover:-translate-y-3">
           <FontAwesomeIcon icon={faCheckToSlot} className="text-[100px] text-[#E4E0E1]"/>
           <h5 className="max-w-[300px] mx-auto text-[18px] text-center pt-2 text-[#E4E0E1]">
-            Our Past Works <br />
-            <span className="text-[14px]"> (Will be opened very soon)</span>
+            Our Past Works
           </h5>
-        </div>
+        </Link>
+
         {/* Pre-Built Websites Box */}
         <div className="h-[250px] md:w-[280px] mx-4 rounded-[20px] md:mt-0 mt-5 bg-[#03346E] flex items-center flex-col justify-center transform transition-transform duration-300 hover:-translate-y-3">
           <FontAwesomeIcon icon={faLayerGroup} className="text-[100px] text-[#F5F5F5]"/>
